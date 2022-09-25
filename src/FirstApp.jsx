@@ -1,16 +1,22 @@
 //rafc
 import PropTypes from 'prop-types'
 
-export const FirstApp = ({ title, subtitle }) => {
+export const FirstApp = ({ title, subTitle }) => {
 
   return (
     <>
       <h2>{title}</h2>
-      <p>{subtitle}</p>
+      <p>{subTitle}</p>
     </>
   )
 }
 
 FirstApp.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.number
+}
+
+FirstApp.defaultProps = {
+  title: "No hay titulo",
+  subTitle: "000"
 }
