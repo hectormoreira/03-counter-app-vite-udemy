@@ -7,6 +7,6 @@ import './style.css';
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         {/* <FirstApp title="Hola soy un titulo" /> */}
-        <CounterApp value={3} />
+        <CounterApp value={5} />
     </React.StrictMode>
 )
