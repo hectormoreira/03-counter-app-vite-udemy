@@ -1,11 +1,12 @@
 //rafc
 import PropTypes from "prop-types";
 
-export const FirstApp = ({ title, subTitle }) => {
+export const FirstApp = ({ title, subTitle, name }) => {
   return (
     <>
-      <h1>{title}</h1>
-      <p>{subTitle}</p>
+      <div data-testid="test-title">{title}</div>
+      <h1>{subTitle}</h1>
+      <p>{name}</p>
     </>
   );
 };
@@ -16,6 +17,6 @@ FirstApp.propTypes = {
 };
 
 FirstApp.defaultProps = {
-  title: "No hay titulo",
-  subTitle: "No hay subTitle",
+  title: "Hola soy un title",
+  subTitle: "Hola soy un subTitle",
 };
