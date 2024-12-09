@@ -2,9 +2,9 @@
 
 exports[`Pruebas en FirstApp Debe de hacer match con el snapshot 1`] = `
 <div>
-  <h2>
+  <h1>
     Hola soy un title
-  </h2>
+  </h1>
   <p>
     No hay subTitle
   </p>
